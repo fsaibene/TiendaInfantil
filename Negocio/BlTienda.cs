@@ -18,7 +18,7 @@ namespace Negocio
             Admin.SaveChanges();
         }
 
-        public static List<Producto> TraerTodosProductos()
+        public static List<Producto> TraerProductos()
         {
            return Admin.GetAll(Admin.db.Productos);
         }
@@ -26,6 +26,23 @@ namespace Negocio
         public static Producto TraerProducto(string codigo)
         {
             return Admin.GetEntity<Producto, string>(codigo);
+        }
+
+        public static void AgregarVenta(Venta venta)
+        {
+            Admin.Add(venta);
+            Admin.SaveChanges();
+        }
+
+        public static void EliminarVenta(Venta venta)
+        {
+            Admin.Delete(venta);
+            Admin.SaveChanges();
+        }
+
+        public static List<Venta> TraerVentas()
+        {
+            return Admin.GetAll(Admin.db.Ventas);
         }
 
         public static Venta TraerVenta(int id)
@@ -36,6 +53,23 @@ namespace Negocio
         public static ItemVenta TraerItemVenta(int id)
         {
             return Admin.GetEntity<ItemVenta, int>(id);
+        }
+
+        public static void AgregarItemVenta(ItemVenta itemVenta)
+        {
+            Admin.Add(itemVenta);
+            Admin.SaveChanges();
+        }
+
+        public static void EliminarItemVenta(ItemVenta itemVenta)
+        {
+            Admin.Delete(itemVenta);
+            Admin.SaveChanges();
+        }
+
+        public static List<ItemVenta> TraerItemVentas()
+        {
+            return Admin.GetAll(Admin.db.ItemVentas);
         }
     }
 }
