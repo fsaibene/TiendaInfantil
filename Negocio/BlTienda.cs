@@ -71,5 +71,10 @@ namespace Negocio
         {
             return Admin.GetAll(Admin.db.ItemVentas);
         }
+
+        public static List<Producto> TraerRangoDeProductosPorStock(int init, int end)
+        {
+            return Admin.GetProductsBetween(init, end);
+        }
     }
 }

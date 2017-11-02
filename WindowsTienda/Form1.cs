@@ -25,7 +25,7 @@ namespace WindowsTienda
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Producto newProducto = new Producto { Codigo = "VA100", CantidadEnStock = 10, CantidadInicial = 1, Caracteristica = "Jeans", Estacion = EnumEstacion.Invierno, Notas = "asdasdas", PrecioCosto = 1, PrecioEfectivo = 2, PrecioLista = 3, Sexo = EnumSexo.VA, Talle = 1, Tipo = "cosas" };
+            /*Producto newProducto = new Producto { Codigo = "VA100", CantidadEnStock = 10, CantidadInicial = 1, Caracteristica = "Jeans", Estacion = EnumEstacion.Invierno, Notas = "asdasdas", PrecioCosto = 1, PrecioEfectivo = 2, PrecioLista = 3, Sexo = EnumSexo.VA, Talle = 1, Tipo = "cosas" };
             Venta venta1 = new Venta
             {
                 CantidadCuotas = 1,
@@ -40,6 +40,9 @@ namespace WindowsTienda
             BlTienda.AgregarVenta(venta1);
             ItemVenta iv = new ItemVenta { Cantidad = 1, CodigoProducto = newProducto.Codigo, IdVenta = venta1.IdVenta };
             BlTienda.AgregarItemVenta(iv);
+            */
+            List<Producto> afafa =  BlTienda.TraerRangoDeProductosPorStock(0, 9);
+
         }
     }
 }

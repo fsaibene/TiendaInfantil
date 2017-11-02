@@ -54,7 +54,11 @@ namespace BO
             return retorno;
         }
 
-
+        public static List<Producto> GetProductsBetween(int init, int end)
+        {
+            return AdminProducto.GetProductsBetween(init, end);
+        }
+            
         public static void SaveChanges()
         {
             db.SaveChanges();
