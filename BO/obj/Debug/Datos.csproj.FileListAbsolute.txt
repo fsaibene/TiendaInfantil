@@ -1,0 +1,12 @@
+C:\Users\cursonet\Desktop\Vidal\TiendaInfantil\TiendaInfantil\BO\bin\Debug\BO.dll.config
+C:\Users\cursonet\Desktop\Vidal\TiendaInfantil\TiendaInfantil\BO\bin\Debug\BO.dll
+C:\Users\cursonet\Desktop\Vidal\TiendaInfantil\TiendaInfantil\BO\bin\Debug\BO.pdb
+C:\Users\cursonet\Desktop\Vidal\TiendaInfantil\TiendaInfantil\BO\bin\Debug\DacTienda.dll
+C:\Users\cursonet\Desktop\Vidal\TiendaInfantil\TiendaInfantil\BO\bin\Debug\EntityFramework.dll
+C:\Users\cursonet\Desktop\Vidal\TiendaInfantil\TiendaInfantil\BO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\cursonet\Desktop\Vidal\TiendaInfantil\TiendaInfantil\BO\bin\Debug\DacTienda.pdb
+C:\Users\cursonet\Desktop\Vidal\TiendaInfantil\TiendaInfantil\BO\bin\Debug\EntityFramework.xml
+C:\Users\cursonet\Desktop\Vidal\TiendaInfantil\TiendaInfantil\BO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\cursonet\Desktop\Vidal\TiendaInfantil\TiendaInfantil\BO\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+C:\Users\cursonet\Desktop\Vidal\TiendaInfantil\TiendaInfantil\BO\obj\Debug\BO.dll
+C:\Users\cursonet\Desktop\Vidal\TiendaInfantil\TiendaInfantil\BO\obj\Debug\BO.pdb
