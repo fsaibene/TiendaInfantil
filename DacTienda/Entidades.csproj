@@ -49,6 +49,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Migrations\201710311515337_InitialCreate.cs" />
+    <Compile Include="Migrations\201710311515337_InitialCreate.Designer.cs">
+      <DependentUpon>201710311515337_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711091257143_RowVersion.cs" />
+    <Compile Include="Migrations\201711091257143_RowVersion.Designer.cs">
+      <DependentUpon>201711091257143_RowVersion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Model\BaseEntity.cs" />
+    <Compile Include="Model\Categoria.cs" />
     <Compile Include="Model\EnumEstacion.cs" />
     <Compile Include="Model\EnumSexo.cs" />
     <Compile Include="Model\ItemVenta.cs" />
@@ -63,6 +74,14 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201710311515337_InitialCreate.resx">
+      <DependentUpon>201710311515337_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711091257143_RowVersion.resx">
+      <DependentUpon>201711091257143_RowVersion.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

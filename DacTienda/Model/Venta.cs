@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DacTienda.Model
 {
-    public class Venta
+    public class Venta : BaseEntity
     {
         [Key]
         public int IdVenta { get; set; }

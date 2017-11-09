@@ -1,6 +1,7 @@
 ﻿using BO;
 using DacTienda.Model;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Negocio
 {
@@ -20,7 +21,7 @@ namespace Negocio
 
         public static List<Producto> TraerProductos()
         {
-           return Admin.GetAll(Admin.db.Productos);
+            return Admin.GetAll(Admin.db.Productos);
         }
 
         public static Producto TraerProducto(string codigo)
@@ -75,6 +76,12 @@ namespace Negocio
         public static List<Producto> TraerRangoDeProductosPorStock(int init, int end)
         {
             return Admin.GetProductsBetween(init, end);
+        }
+
+        public static void Modificar(Producto producto)
+        {
+            Admin.Modificar(producto);
+            Admin.SaveChanges();
         }
     }
 }

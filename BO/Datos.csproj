@@ -52,6 +52,7 @@
     <Compile Include="Admin.cs" />
     <Compile Include="AdminItemVenta.cs" />
     <Compile Include="AdminProducto.cs" />
+    <Compile Include="AdminQueryProductos.cs" />
     <Compile Include="AdminVenta.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

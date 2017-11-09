@@ -7,3 +7,7 @@ C:\Users\cursonet\Desktop\Vidal\TiendaInfantil\TiendaInfantil\DacTienda\bin\Debu
 C:\Users\cursonet\Desktop\Vidal\TiendaInfantil\TiendaInfantil\DacTienda\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\cursonet\Desktop\Vidal\TiendaInfantil\TiendaInfantil\DacTienda\obj\Debug\DacTienda.dll
 C:\Users\cursonet\Desktop\Vidal\TiendaInfantil\TiendaInfantil\DacTienda\obj\Debug\DacTienda.pdb
+C:\Users\cursonet\Desktop\Vidal\TiendaInfantil\TiendaInfantil\DacTienda\obj\Debug\DacTienda.Migrations.InitialCreate.resources
+C:\Users\cursonet\Desktop\Vidal\TiendaInfantil\TiendaInfantil\DacTienda\obj\Debug\Entidades.csproj.GenerateResource.Cache
+C:\Users\cursonet\Desktop\Vidal\TiendaInfantil\TiendaInfantil\DacTienda\obj\Debug\DacTienda.Migrations.RowVersion.resources
+C:\Users\cursonet\Desktop\Vidal\TiendaInfantil\TiendaInfantil\DacTienda\obj\Debug\Entidades.csprojResolveAssemblyReference.cache

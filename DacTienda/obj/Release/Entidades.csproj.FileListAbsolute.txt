@@ -1,0 +1,12 @@
+C:\Users\cursonet\Desktop\Vidal\TiendaInfantil\TiendaInfantil\DacTienda\bin\Release\DacTienda.dll.config
+C:\Users\cursonet\Desktop\Vidal\TiendaInfantil\TiendaInfantil\DacTienda\bin\Release\DacTienda.dll
+C:\Users\cursonet\Desktop\Vidal\TiendaInfantil\TiendaInfantil\DacTienda\bin\Release\DacTienda.pdb
+C:\Users\cursonet\Desktop\Vidal\TiendaInfantil\TiendaInfantil\DacTienda\bin\Release\EntityFramework.dll
+C:\Users\cursonet\Desktop\Vidal\TiendaInfantil\TiendaInfantil\DacTienda\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\cursonet\Desktop\Vidal\TiendaInfantil\TiendaInfantil\DacTienda\bin\Release\EntityFramework.xml
+C:\Users\cursonet\Desktop\Vidal\TiendaInfantil\TiendaInfantil\DacTienda\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\cursonet\Desktop\Vidal\TiendaInfantil\TiendaInfantil\DacTienda\obj\Release\DacTienda.Migrations.InitialCreate.resources
+C:\Users\cursonet\Desktop\Vidal\TiendaInfantil\TiendaInfantil\DacTienda\obj\Release\DacTienda.Migrations.RowVersion.resources
+C:\Users\cursonet\Desktop\Vidal\TiendaInfantil\TiendaInfantil\DacTienda\obj\Release\Entidades.csproj.GenerateResource.Cache
+C:\Users\cursonet\Desktop\Vidal\TiendaInfantil\TiendaInfantil\DacTienda\obj\Release\DacTienda.dll
+C:\Users\cursonet\Desktop\Vidal\TiendaInfantil\TiendaInfantil\DacTienda\obj\Release\DacTienda.pdb

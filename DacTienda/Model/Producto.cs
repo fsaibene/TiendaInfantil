@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace DacTienda.Model
 {
     [Table("Productos")]
-    public class Producto
+    public class Producto : BaseEntity
     {
         [Key]
         [MaxLength(6)]
@@ -28,6 +28,8 @@ namespace DacTienda.Model
 
         [Required]
         public int Talle { get; set; }
+
+        public int idCategoria { get; set; }
 
         [Required]
         [Column(TypeName = "Varchar")]
@@ -53,5 +55,8 @@ namespace DacTienda.Model
         [Column(TypeName = "Varchar")]
         [MaxLength(200)]
         public string Notas { get; set; }
+
+        [ForeignKey("idCategoria")]
+        public Categoria Categoria { get; set; }
     }
 }

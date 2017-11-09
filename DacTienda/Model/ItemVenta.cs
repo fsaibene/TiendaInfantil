@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DacTienda.Model
 {
-    public class ItemVenta
+    public class ItemVenta : BaseEntity
     {
         [Key]
         public int IdItemVenta { get; set; }

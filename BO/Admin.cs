@@ -16,6 +16,14 @@ namespace BO
             return db.Set<T>().Add(entity);
         }
 
+        public static void Modificar<T>(T entity) where T : class
+        {
+            db.Set<T>().Attach(entity);
+            db.Entry(entity).State = EntityState.Modified;
+            db.Entry(entity);
+
+        }
+
         public static T Delete<T>(T entity) where T : class
         {
             return db.Set<T>().Remove(entity);
