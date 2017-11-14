@@ -1,4 +1,7 @@
 
+DROP PROCEDURE P_ActualizarProducto
+GO
+
 CREATE PROCEDURE P_ActualizarProducto
 			@Codigo nvarchar(6) 
 		   ,@Tipo varchar(20)

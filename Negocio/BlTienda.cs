@@ -80,7 +80,7 @@ namespace Negocio
 
         public static void Modificar(Producto producto)
         {
-            Admin.Modificar(producto);
+            Admin.Update(producto);
             Admin.SaveChanges();
         }
     }

@@ -16,12 +16,11 @@ namespace BO
             return db.Set<T>().Add(entity);
         }
 
-        public static void Modificar<T>(T entity) where T : class
+        public static void Update<T>(T entity) where T : class
         {
             db.Set<T>().Attach(entity);
             db.Entry(entity).State = EntityState.Modified;
             db.Entry(entity);
-
         }
 
         public static T Delete<T>(T entity) where T : class
@@ -43,23 +42,23 @@ namespace BO
 
         public static T GetEntity<T, U>(U id) where T : class
         {
-            dynamic retorno = null;
+            dynamic varReturn = null;
             if (typeof(T) == typeof(Producto))
             {
-                retorno = AdminProducto.GetProducto(id as string);
+                varReturn = AdminProducto.GetProducto(id as string);
             }
 
             else if (typeof(T) == typeof(Venta))
             {
-                retorno = AdminVenta.GetVenta(int.Parse(id as string));
+                varReturn = AdminVenta.GetVenta(int.Parse(id as string));
             }
 
             else if (typeof(T) == typeof(ItemVenta))
             {
-                retorno = AdminItemVenta.GetItemVenta(int.Parse(id as string));
+                varReturn = AdminItemVenta.GetItemVenta(int.Parse(id as string));
             }
 
-            return retorno;
+            return varReturn;
         }
 
         public static List<Producto> GetProductsBetween(int init, int end)

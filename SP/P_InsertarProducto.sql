@@ -1,4 +1,7 @@
 
+DROP PROCEDURE P_InsertarProducto
+GO
+
 CREATE PROCEDURE P_InsertarProducto 
 			@Codigo nvarchar(6) 
 		   ,@Tipo varchar(20)
@@ -30,7 +33,7 @@ AS
 	,@PrecioCosto 
 	,@PrecioEfectivo 
 	,@PrecioLista 
-	,@Notas 
+	,'SARASA'--@Notas 
 	,@idCategoria) 
 	GO
 

@@ -61,6 +61,14 @@
     <Compile Include="Migrations\201711141319034_cambio maquina.Designer.cs">
       <DependentUpon>201711141319034_cambio maquina.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201711141517563_store procedures.cs" />
+    <Compile Include="Migrations\201711141517563_store procedures.Designer.cs">
+      <DependentUpon>201711141517563_store procedures.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711141539179_spu.cs" />
+    <Compile Include="Migrations\201711141539179_spu.Designer.cs">
+      <DependentUpon>201711141539179_spu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\BaseEntity.cs" />
     <Compile Include="Model\Categoria.cs" />
@@ -88,6 +96,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201711141319034_cambio maquina.resx">
       <DependentUpon>201711141319034_cambio maquina.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711141517563_store procedures.resx">
+      <DependentUpon>201711141517563_store procedures.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711141539179_spu.resx">
+      <DependentUpon>201711141539179_spu.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

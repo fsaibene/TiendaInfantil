@@ -43,21 +43,25 @@ namespace DacTienda.Model
             return DbSets.First(db => (db.GetType().GetGenericArguments()[0] as Type) == type);
         }
 
-        //public T Add<T>(T entity) where T : class
-        //{
-        //    return Set<T>().Add(entity);
-        //}
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Producto>()
+                .MapToStoredProcedures(p => p
+                    .Insert(sp => sp.HasName("P_InsertarProducto")
+                                    .Parameter(pm => pm.Codigo         , "Codigo")
+                                    .Parameter(pm => pm.Tipo           , "Tipo")
+                                    .Parameter(pm => pm.Sexo           , "Sexo")
+                                    .Parameter(pm => pm.Estacion       , "Estacion")
+                                    .Parameter(pm => pm.Talle          , "Talle")
+                                    .Parameter(pm => pm.Caracteristica , "Caracteristica")
+                                    .Parameter(pm => pm.CantidadInicial, "CantidadInicial")
+                                    .Parameter(pm => pm.CantidadEnStock, "CantidadEnStock")
+                                    .Parameter(pm => pm.PrecioCosto    , "PrecioCosto")
+                                    .Parameter(pm => pm.PrecioEfectivo , "PrecioEfectivo")
+                                    .Parameter(pm => pm.PrecioLista    , "PrecioLista")
+                                    .Parameter(pm => pm.Notas          , "Notas")
+                                    .Parameter(pm => pm.idCategoria    , "idCategoria")));
+        }
 
-        //public T Delete<T>(T entity) where T : class
-        //{
-        //    return Set<T>().Remove(entity);
-        //}
-
-        //public List<T> GetAll<T>(DbSet<T> dbSet) where T : class
-        //{
-        //    List<T> lista = (from liCli in dbSet
-        //                     select liCli).ToList();
-        //    return lista;
-        //}
     }
 }

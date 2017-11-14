@@ -1,3 +1,6 @@
+DROP PROCEDURE P_TraerProductosPorCategoria
+GO
+
 CREATE PROCEDURE P_TraerProductosPorCategoria
 			@idCategoria int 
 AS
