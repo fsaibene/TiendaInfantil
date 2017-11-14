@@ -1,5 +1,6 @@
 ﻿using DacTienda.Model;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace BO
 {
@@ -66,18 +67,17 @@ namespace BO
 
         public List<Producto> TraerTodos()
         {
-
-            return null;
+            return Admin.db.Productos.SqlQuery("SELECT * FROM [dbo].[Productos]").ToList(); 
         }
 
         public List<Producto> TraerTodos(Categoria categoria)
         {
-            return null;
+           return Admin.db.Productos.SqlQuery("SELECT * FROM [dbo].[Productos] WHERE IdCategoria = {0}", categoria.idCategoria.ToString()).ToList();
         }
 
         public List<Producto> TraerTodos(string id)
         {
-            return null;
+            return Admin.db.Productos.SqlQuery("SELECT * FROM [dbo].[Productos] WHERE Codigo = {0}", id).ToList();
         }
 
         #endregion
@@ -86,32 +86,68 @@ namespace BO
 
         public void AgregarQuerySpu(Producto producto)
         {
-
+            Admin.db.Database.ExecuteSqlCommand("P_InsertarProducto "+
+                "@Codigo = {0}, @Tipo = {1}, @Sexo = {2}, @Estacion = {3}, "+
+                "@Talle = {4}, @Caracteristica = {5}, @CantidadInicial = {6}, "+
+                "@CantidadEnStock = {7}, @PrecioCosto = {8}, @PrecioEfectivo = {9}, "+
+                "@PrecioLista = {10}, @Notas = {11}, @idCategoria = {12} "
+                ,producto.Codigo
+                ,producto.Tipo 
+                ,producto.Sexo 
+                ,producto.Estacion 
+                ,producto.Talle 
+                ,producto.Caracteristica
+                ,producto.CantidadInicial
+                ,producto.CantidadEnStock
+                ,producto.PrecioCosto 
+                ,producto.PrecioEfectivo
+                ,producto.PrecioLista 
+                ,producto.Notas 
+                ,producto.idCategoria
+                );
         }
 
         public void ModificarQuerySpu(Producto producto)
         {
-
+            Admin.db.Database.ExecuteSqlCommand("P_ActualizarProducto " +
+                "@Codigo = {0}, @Tipo = {1}, @Sexo = {2}, @Estacion = {3}, " +
+                "@Talle = {4}, @Caracteristica = {5}, @CantidadInicial = {6}, " +
+                "@CantidadEnStock = {7}, @PrecioCosto = {8}, @PrecioEfectivo = {9}, " +
+                "@PrecioLista = {10}, @Notas = {11}, @idCategoria = {12} "
+                , producto.Codigo
+                , producto.Tipo
+                , producto.Sexo
+                , producto.Estacion
+                , producto.Talle
+                , producto.Caracteristica
+                , producto.CantidadInicial
+                , producto.CantidadEnStock
+                , producto.PrecioCosto
+                , producto.PrecioEfectivo
+                , producto.PrecioLista
+                , producto.Notas
+                , producto.idCategoria
+                );
         }
 
         public void EliminarQuerySpu(string id)
         {
-
+            Admin.db.Database.ExecuteSqlCommand("P_EliminarProducto @Codigo = {0}", id);
         }
 
         public List<Producto> TraerTodosSpu()
         {
-            return null;
+            return Admin.db.Productos.SqlQuery("P_TraerProductos", null).ToList();
         }
 
         public List<Producto> TraerTodosSpu(Categoria categoria)
         {
-            return null;
+            return Admin.db.Productos.SqlQuery("P_TraerProductoPorCategoria @idCategoria = {0}", categoria.idCategoria.ToString()).ToList();
         }
 
         public List<Producto> TraerTodosSpu(string id)
         {
-            return null;
+            return Admin.db.Productos.SqlQuery("P_TraerProductoPorCodigo @Codigo = {0}", id).ToList();
         }
 
         #endregion

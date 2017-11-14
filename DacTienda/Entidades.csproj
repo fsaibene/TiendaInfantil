@@ -57,6 +57,10 @@
     <Compile Include="Migrations\201711091257143_RowVersion.Designer.cs">
       <DependentUpon>201711091257143_RowVersion.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201711141319034_cambio maquina.cs" />
+    <Compile Include="Migrations\201711141319034_cambio maquina.Designer.cs">
+      <DependentUpon>201711141319034_cambio maquina.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\BaseEntity.cs" />
     <Compile Include="Model\Categoria.cs" />
@@ -81,6 +85,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201711091257143_RowVersion.resx">
       <DependentUpon>201711091257143_RowVersion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711141319034_cambio maquina.resx">
+      <DependentUpon>201711141319034_cambio maquina.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

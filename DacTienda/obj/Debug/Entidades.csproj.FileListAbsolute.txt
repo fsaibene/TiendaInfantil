@@ -11,3 +11,17 @@ C:\Users\cursonet\Desktop\Vidal\TiendaInfantil\TiendaInfantil\DacTienda\obj\Debu
 C:\Users\cursonet\Desktop\Vidal\TiendaInfantil\TiendaInfantil\DacTienda\obj\Debug\Entidades.csproj.GenerateResource.Cache
 C:\Users\cursonet\Desktop\Vidal\TiendaInfantil\TiendaInfantil\DacTienda\obj\Debug\DacTienda.Migrations.RowVersion.resources
 C:\Users\cursonet\Desktop\Vidal\TiendaInfantil\TiendaInfantil\DacTienda\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\cursonet\Documents\VidalSaibeneFafa\TiendaInfantil\DacTienda\bin\Debug\DacTienda.dll.config
+C:\Users\cursonet\Documents\VidalSaibeneFafa\TiendaInfantil\DacTienda\bin\Debug\DacTienda.dll
+C:\Users\cursonet\Documents\VidalSaibeneFafa\TiendaInfantil\DacTienda\bin\Debug\DacTienda.pdb
+C:\Users\cursonet\Documents\VidalSaibeneFafa\TiendaInfantil\DacTienda\bin\Debug\EntityFramework.dll
+C:\Users\cursonet\Documents\VidalSaibeneFafa\TiendaInfantil\DacTienda\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\cursonet\Documents\VidalSaibeneFafa\TiendaInfantil\DacTienda\bin\Debug\EntityFramework.xml
+C:\Users\cursonet\Documents\VidalSaibeneFafa\TiendaInfantil\DacTienda\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\cursonet\Documents\VidalSaibeneFafa\TiendaInfantil\DacTienda\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\cursonet\Documents\VidalSaibeneFafa\TiendaInfantil\DacTienda\obj\Debug\DacTienda.Migrations.InitialCreate.resources
+C:\Users\cursonet\Documents\VidalSaibeneFafa\TiendaInfantil\DacTienda\obj\Debug\DacTienda.Migrations.RowVersion.resources
+C:\Users\cursonet\Documents\VidalSaibeneFafa\TiendaInfantil\DacTienda\obj\Debug\Entidades.csproj.GenerateResource.Cache
+C:\Users\cursonet\Documents\VidalSaibeneFafa\TiendaInfantil\DacTienda\obj\Debug\DacTienda.dll
+C:\Users\cursonet\Documents\VidalSaibeneFafa\TiendaInfantil\DacTienda\obj\Debug\DacTienda.pdb
+C:\Users\cursonet\Documents\VidalSaibeneFafa\TiendaInfantil\DacTienda\obj\Debug\DacTienda.Migrations.cambiomaquina.resources

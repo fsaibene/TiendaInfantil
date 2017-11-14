@@ -19,9 +19,12 @@ namespace WindowsTienda
 
         private void button1_Click(object sender, EventArgs e)
         {
-                Producto newProducto = new Producto { Codigo = "VA155", CantidadEnStock = 10, CantidadInicial = 1, Caracteristica = "Jeans", Estacion = EnumEstacion.Invierno, Notas = "asdasdas", PrecioCosto = 1, PrecioEfectivo = 2, PrecioLista = 3, Sexo = EnumSexo.VA, Talle = 1, Tipo = "cosas" };
-                tienda.Productos.Add(newProducto);
-                tienda.SaveChanges();
+            Categoria newCategoria = new Categoria { Nombre = "Sarasa" };
+            tienda.Categorias.Add(newCategoria);
+            tienda.SaveChanges();
+            Producto newProducto = new Producto { Codigo = "VA155", CantidadEnStock = 10, CantidadInicial = 1, Caracteristica = "Jeans", Estacion = EnumEstacion.Invierno, Notas = "asdasdas", PrecioCosto = 1, PrecioEfectivo = 2, PrecioLista = 3, Sexo = EnumSexo.VA, Talle = 1, Tipo = "cosas", idCategoria = 1};
+            tienda.Productos.Add(newProducto);
+            tienda.SaveChanges();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -53,8 +56,8 @@ namespace WindowsTienda
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            dataGridView1.DataSource = BlTienda.TraerProductos();
-            dataGridView1.Columns.GetLastColumn(DataGridViewElementStates.None, DataGridViewElementStates.None).Visible = false;
+            //dataGridView1.DataSource = BlTienda.TraerProductos();
+            //dataGridView1.Columns.GetLastColumn(DataGridViewElementStates.None, DataGridViewElementStates.None).Visible = false;
         }
 
         private void btnModificar_Click(object sender, EventArgs e)

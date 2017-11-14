@@ -12,3 +12,17 @@ C:\Users\cursonet\Desktop\Vidal\TiendaInfantil\TiendaInfantil\Negocio\obj\Debug\
 C:\Users\cursonet\Desktop\Vidal\TiendaInfantil\TiendaInfantil\Negocio\bin\Debug\Negocio.dll.config
 C:\Users\cursonet\Desktop\Vidal\TiendaInfantil\TiendaInfantil\Negocio\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\cursonet\Desktop\Vidal\TiendaInfantil\TiendaInfantil\Negocio\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\cursonet\Documents\VidalSaibeneFafa\TiendaInfantil\Negocio\bin\Debug\Negocio.dll.config
+C:\Users\cursonet\Documents\VidalSaibeneFafa\TiendaInfantil\Negocio\bin\Debug\Negocio.dll
+C:\Users\cursonet\Documents\VidalSaibeneFafa\TiendaInfantil\Negocio\bin\Debug\Negocio.pdb
+C:\Users\cursonet\Documents\VidalSaibeneFafa\TiendaInfantil\Negocio\bin\Debug\BO.dll
+C:\Users\cursonet\Documents\VidalSaibeneFafa\TiendaInfantil\Negocio\bin\Debug\DacTienda.dll
+C:\Users\cursonet\Documents\VidalSaibeneFafa\TiendaInfantil\Negocio\bin\Debug\EntityFramework.dll
+C:\Users\cursonet\Documents\VidalSaibeneFafa\TiendaInfantil\Negocio\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\cursonet\Documents\VidalSaibeneFafa\TiendaInfantil\Negocio\bin\Debug\BO.pdb
+C:\Users\cursonet\Documents\VidalSaibeneFafa\TiendaInfantil\Negocio\bin\Debug\DacTienda.pdb
+C:\Users\cursonet\Documents\VidalSaibeneFafa\TiendaInfantil\Negocio\bin\Debug\EntityFramework.xml
+C:\Users\cursonet\Documents\VidalSaibeneFafa\TiendaInfantil\Negocio\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\cursonet\Documents\VidalSaibeneFafa\TiendaInfantil\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\cursonet\Documents\VidalSaibeneFafa\TiendaInfantil\Negocio\obj\Debug\Negocio.dll
+C:\Users\cursonet\Documents\VidalSaibeneFafa\TiendaInfantil\Negocio\obj\Debug\Negocio.pdb
