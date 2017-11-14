@@ -22,3 +22,15 @@ C:\Users\cursonet\Documents\VidalSaibeneFafa\TiendaInfantil\BO\bin\Debug\EntityF
 C:\Users\cursonet\Documents\VidalSaibeneFafa\TiendaInfantil\BO\obj\Debug\Datos.csprojResolveAssemblyReference.cache
 C:\Users\cursonet\Documents\VidalSaibeneFafa\TiendaInfantil\BO\obj\Debug\BO.dll
 C:\Users\cursonet\Documents\VidalSaibeneFafa\TiendaInfantil\BO\obj\Debug\BO.pdb
+C:\Users\cursonet\Documents\Fer\TiendaInfantil\BO\bin\Debug\BO.dll.config
+C:\Users\cursonet\Documents\Fer\TiendaInfantil\BO\bin\Debug\BO.dll
+C:\Users\cursonet\Documents\Fer\TiendaInfantil\BO\bin\Debug\BO.pdb
+C:\Users\cursonet\Documents\Fer\TiendaInfantil\BO\bin\Debug\DacTienda.dll
+C:\Users\cursonet\Documents\Fer\TiendaInfantil\BO\bin\Debug\EntityFramework.dll
+C:\Users\cursonet\Documents\Fer\TiendaInfantil\BO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\cursonet\Documents\Fer\TiendaInfantil\BO\bin\Debug\DacTienda.pdb
+C:\Users\cursonet\Documents\Fer\TiendaInfantil\BO\bin\Debug\EntityFramework.xml
+C:\Users\cursonet\Documents\Fer\TiendaInfantil\BO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\cursonet\Documents\Fer\TiendaInfantil\BO\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+C:\Users\cursonet\Documents\Fer\TiendaInfantil\BO\obj\Debug\BO.dll
+C:\Users\cursonet\Documents\Fer\TiendaInfantil\BO\obj\Debug\BO.pdb

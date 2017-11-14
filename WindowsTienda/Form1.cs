@@ -86,5 +86,41 @@ namespace WindowsTienda
                 MessageBox.Show("Se rompió atr" + eze.ToString());
             }
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnTraerProductos_Click(object sender, EventArgs e)
+        {
+            using (var dbContextTransaction = tienda.Database.BeginTransaction())
+            {
+                try
+                {
+                    dataGridView1.DataSource = BlTienda.TraerProductos();
+                    dataGridView1.Columns.GetLastColumn(DataGridViewElementStates.None, DataGridViewElementStates.None).Visible = false;
+                    dbContextTransaction.Commit();
+                }
+                catch
+                {
+                    MessageBox.Show("Se detecto un error");
+                    dbContextTransaction.Rollback();
+                }
+            }
+        }
+
+        private void btnAgregarProducto_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                frmProducto form1 = new frmProducto(tienda);
+                form1.Show();
+            }
+            catch
+            {
+                MessageBox.Show("Se detecto un error");
+            }
+        }
     }
 }
